@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <title>Example Exercises</title>
+    
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="custom.css">
+    <script src="Js/jQueryv3.3.1.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="scriptAPI.js"></script>
+  </head>
+  <body>
+  
+  <div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>Example Exercises</h1>
+				<p>Exercises done in PHP</p>		
+		  </div>	
+	  </div>
+    <div class="row">	
+      <div class="col-sm-12 col-md-7 col-lg-8">
+        <div class="container" >
+          <div class='row' id="dataShow" style="display: flex; justify-content: space-around;">
+            <div class="card" style="width: 12rem;">
+              <img class="card-img-top" src="edipage.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div> 
+          </div>
+          <div class="row justify-content-center">
+            <nav aria-label="Page navigation">
+              <ul class="pagination pagination-sm ">
+                <li class="page-item">
+                  <button class="page-link" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </button>
+                </li>
+                <li class="page-item"><input type="button" id="button_search1" class="page-link" value="1"/></li>
+                <li class="page-item"><input type="button" id="button_search2" class="page-link" value="2"/></li>
+                <li class="page-item"><input type="button" id="button_search3" class="page-link" value="3"/></li>
+                <li class="page-item">
+                  <button class="page-link" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>		
+      <div class="col-sm-12 col-md-5 col-lg-4">
+        <div class="row show-buttons">
+          <h3>Search Page</h3><hr />
+          <div>
+            <input 
+              type="text" 
+              id="miBusqueda" 
+              name="page" 
+              placeholder="Buscar pagina..."
+              aria-label="Buscar en el contenido del sitio">
+            <button id="button_search" class="btn btn-primary">Buscar</button>
+          </div>
+        </div>
+        <div class="row show-buttons">
+          <h3>Mostar :</h3><hr/>
+          <div>
+            <input type='button' value='Show for pages' id="show_button" class="btn btn-primary"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="Js/jQueryv3.3.1.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="scriptAPI.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	</body>
+</html>

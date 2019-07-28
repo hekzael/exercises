@@ -1,0 +1,7 @@
+hr {
+  width: -webkit-fill-available;
+}
+.show-buttons{
+  display: flex; 
+  flex-direction: column;
+}
